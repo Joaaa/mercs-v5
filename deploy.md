@@ -7,7 +7,7 @@ inside an isolated python environment, managed by conda.
 
 Environment made with conda. To make an environment;
 
-`conda create --name <whatever> python=3.5`
+`conda create --name <whatever> python=3.6`
 
 ## Export
 This environment can be exported to a `.yml` file through the following command:
