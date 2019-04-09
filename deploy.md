@@ -12,7 +12,7 @@ Environment made with conda. To make an environment;
 ## Export
 This environment can be exported to a `.yml` file through the following command:
 
-`source activate <whatever>`
+`source activate <whatever>`  
 `conda env export > environment.yml`
 
 Which creates the `.yml` file present in the root dir. 
@@ -30,5 +30,5 @@ Sometimes it works by automagically, sometimes it does not, for unclear reasons.
 
 However, the clean way is the following;
 
-`source activate <whatever>`
-`python -m ipykernel install --user --name myenv --display-name "Python (myenv)"`
+`source activate <whatever>`  
+`python -m ipykernel install --user --name <whatever> --display-name "Python (<whatever>)"`
